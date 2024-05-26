@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Backend",
+        "lessonCount": "10",
+        "instructor": "Cesar Gutierrez",
+        "instructorDate": "01/01/24",
+        "editor": "Lizbeth Molina",
+        "editorDate": "04/01/24",
+        "status": true
+    },
+    {
+        "title": "Frontend",
+        "lessonCount": "21",
+        "instructor": "Cesar Gutierrez",
+        "instructorDate": "02/01/24",
+        "editor": "Lizbeth Molina",
+        "editorDate": "05/01/24",
+        "status": true
+    },
+    {
+        "title": "Base de datos",
+        "lessonCount": "10",
+        "instructor": "Cesar Gutierrez",
+        "instructorDate": "02/01/24",
+        "editor": "Lizbeth Molina",
+        "editorDate": "05/01/24",
+        "status": true
+    },
+    {
+        "title": "Redes",
+        "lessonCount": "11",
+        "instructor": "Cesar Gutierrez",
+        "instructorDate": "03/01/24",
+        "editor": "Lizbeth Molina",
+        "editorDate": "05/01/24",
+        "status": false
+    }
+]

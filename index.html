@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="end">
 
 <head>
     <meta charset="UTF-8">
@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="style.css">
     <!--Bootstrap-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!--JS-->
+    <script src="script.js" type="module"></script>
 </head>
 
 <body>
@@ -18,6 +20,7 @@
                 <li>
                     <img src="/img/icon.svg" alt="Icono Provisional">
                 </li>
+                <!--
                 <li>
                     <img src="/img/icon.svg" alt="Icono Provisional">
                 </li>
@@ -27,6 +30,7 @@
                 <li>
                     <img src="/img/icon.svg" alt="Icono Provisional">
                 </li>
+                -->
             </ul>
         </aside>
         <main id="category-visualization-main">
@@ -40,96 +44,22 @@
             </header>
             <section id="category-visualization-section-filter-and-create">
                 <input type="text" id="category-visualization-section-filter-input" placeholder="Buscar por nombre">
-                <button type="button" class="btn btn-primary">Nueva Categoría</button>
+                <button type="button" class="btn btn-primary btn-category"
+                    id="category-visualization-section-create-button">Nueva Categoría</button>
             </section>
             <section id="category-visualization-section-cards">
                 <h4>ACTIVAS</h4>
                 <div id="category-visualization-section-active-cards">
-                    <!--Backend-->
-                    <div class="card" style="max-width: 387px; max-height: 420px;">
-                        <img src="img/card.png" class="card-img-top" alt="Imagen de curso">
-                        <div class="card-body"
-                            style="position:relative; display: flex; flex-direction: column; gap: 20px;">
-                            <h5 class="card-title" style="text-align: center;">Backend</h5>
-                            <img src="img/dots.svg" alt="dots" height="24px" width="24px"
-                                style="position: absolute; right: 10px;">
-                            <div style="display: flex; align-items: center;">
-                                <img src="img/card.png" alt="Icon unknown" width="30px" height="30px">
-                                <p style="width: 100%; margin: 0;">10 lecciones</p>
-                            </div>
-                            <div style="display: flex; align-items: center;">
-                                <img src="img/card.png" alt="Icon unknown" width="30px" height="30px">
-                                <p style="width: 100%; margin: 0;">Cesar Gutierrez - 01/01/24</p>
-                            </div>
-                            <p style="text-align: end;">Lizbeth Molina - 04/01/24</p>
-                        </div>
-                    </div>
-                    <!--Frontend-->
-                    <div class="card" style="max-width: 387px; max-height: 420px;">
-                        <img src="img/card.png" class="card-img-top" alt="Imagen de curso">
-                        <div class="card-body"
-                            style="position:relative; display: flex; flex-direction: column; gap: 20px;">
-                            <h5 class="card-title" style="text-align: center;">Frontend</h5>
-                            <img src="img/dots.svg" alt="dots" height="24px" width="24px"
-                                style="position: absolute; right: 10px;">
-                            <div style="display: flex; align-items: center;">
-                                <img src="img/card.png" alt="Icon unknown" width="30px" height="30px">
-                                <p style="width: 100%; margin: 0;">21 lecciones</p>
-                            </div>
-                            <div style="display: flex; align-items: center;">
-                                <img src="img/card.png" alt="Icon unknown" width="30px" height="30px">
-                                <p style="width: 100%; margin: 0;">Cesar Gutierrez - 01/01/24</p>
-                            </div>
-                            <p style="text-align: end;">Lizbeth Molina - 04/01/24</p>
-                        </div>
-                    </div>
-                    <!--Base de datos-->
-                    <div class="card" style="max-width: 387px; max-height: 420px;">
-                        <img src="img/card.png" class="card-img-top" alt="Imagen de curso">
-                        <div class="card-body"
-                            style="position:relative; display: flex; flex-direction: column; gap: 20px;">
-                            <h5 class="card-title" style="text-align: center;">Base de datos</h5>
-                            <img src="img/dots.svg" alt="dots" height="24px" width="24px"
-                                style="position: absolute; right: 10px;">
-                            <div style="display: flex; align-items: center;">
-                                <img src="img/card.png" alt="Icon unknown" width="30px" height="30px">
-                                <p style="width: 100%; margin: 0;">10 lecciones</p>
-                            </div>
-                            <div style="display: flex; align-items: center;">
-                                <img src="img/card.png" alt="Icon unknown" width="30px" height="30px">
-                                <p style="width: 100%; margin: 0;">Cesar Gutierrez - 01/01/24</p>
-                            </div>
-                            <p style="text-align: end;">Lizbeth Molina - 04/01/24</p>
-                        </div>
-                    </div>
                 </div>
 
                 <h4>INACTIVAS</h4>
                 <div id="category-visualization-section-inactive-cards">
-                    <!--Redes-->
-                    <div class="card" style="max-width: 387px; max-height: 420px;">
-                        <img src="img/card.png" class="card-img-top" alt="Imagen de curso">
-                        <div class="card-body"
-                            style="position:relative; display: flex; flex-direction: column; gap: 20px;">
-                            <h5 class="card-title" style="text-align: center;">Redes</h5>
-                            <img src="img/dots.svg" alt="dots" height="24px" width="24px"
-                                style="position: absolute; right: 10px;">
-                            <div style="display: flex; align-items: center;">
-                                <img src="img/card.png" alt="Icon unknown" width="30px" height="30px">
-                                <p style="width: 100%; margin: 0;">10 lecciones</p>
-                            </div>
-                            <div style="display: flex; align-items: center;">
-                                <img src="img/card.png" alt="Icon unknown" width="30px" height="30px">
-                                <p style="width: 100%; margin: 0;">Cesar Gutierrez - 01/01/24</p>
-                            </div>
-                            <p style="text-align: end;">Lizbeth Molina - 04/01/24</p>
-                        </div>
-                    </div>
                 </div>
             </section>
         </main>
     </div>
     <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 
 </html>
